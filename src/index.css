@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Merriweather Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.infoBox {
+  padding: 20px;
+  min-width: 500px;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9,
+    -20px -20px 60px #ffffff;
+}
+
+.infoBox form {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.infoBox h1,
+p {
+  text-align: center;
+}
